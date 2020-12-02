@@ -9,7 +9,7 @@ font-family: 'Nunito Sans', sans-serif;
 }
 html {
     padding: 0px;
-    margin: 0px;
+    margin: 0px
 }
 body {
     padding: 0px;
@@ -139,11 +139,16 @@ ul {
     margin: auto;
     width: 90%;
     text-align: center;
+    padding: 5px;
+}
+.product-container h3 {
+    height: 50px;
 }
 .product-container:hover {
     background-color: white;
-    padding: 5px;
     color: black;
+}
+product-container:hover h3 {
     font-size: x-large;
 }
 picture img {
@@ -243,6 +248,22 @@ footer {
     margin-left: 200px;
     margin-right: 200px;
     line-height: 40px;
+}
+.carousel {
+    background: rgb(18, 17, 17);
+  }
+.carousel-cell {
+    margin-right: 20px;
+    overflow: hidden;
+}
+.carousel-cell img {
+    display: block;
+    height: 200px;
+}
+@media screen and ( min-width: 768px ) {
+    .carousel-cell img {
+        height: 400px;
+    }
 }
 
 /*CONTACT US*/
