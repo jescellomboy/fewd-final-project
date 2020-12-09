@@ -144,7 +144,7 @@ ul {
     height: 50px;
 }
 .product-container:hover {
-    background-color: white;
+    background-color: silver;
     color: black;
 }
 picture img {
