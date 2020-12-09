@@ -19,3 +19,4 @@ flkty.on( 'scroll', function() {
     img.style[ transformProp ] = 'translateX(' + x  + 'px)';
   });
 });
+
